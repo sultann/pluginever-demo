@@ -19,7 +19,9 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
+    <link rel="shortcut icon" href="https://www.pluginever.com/wp-content/themes/pluginever/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://www.pluginever.com/wp-content/themes/pluginever/favicon.png" />
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
