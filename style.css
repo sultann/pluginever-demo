@@ -1,0 +1,186 @@
+/*
+ Theme Name:   PluginEver Demo
+ Theme URI:    http://pluginever.com
+ Description:  Custom Demo theme for PluginEver
+ Author:       PluginEver
+ Author URI:   http://pluginever.com
+ Template:     twentytwelve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+@import url(../twentytwelve/style.css);
+body{
+    background:#fff;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+body .site{
+    max-width: 1050px;
+}
+h2{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 960px) {
+
+    body .site {
+        margin: 0 auto;
+        padding: 10px;
+        box-shadow: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .menu-item.float-right {
+        float: right;
+        margin: 0 0 0 2.82rem;
+        font-weight: bold;
+    }
+    .menu-item.float-right a{
+        color: #915f8b;
+    }
+}
+
+
+.site-header {
+    position: relative;
+}
+.site-header hgroup {
+    position: relative;
+}
+
+
+.woocommerce div.product .product_title {
+    font-size: 30px;
+}
+
+.woocommerce #respond input#submit.loading,
+.woocommerce a.button.loading,
+.woocommerce button.button.loading,
+.woocommerce input.button.loading{
+    opacity:0.8;
+}
+
+@media only screen and (max-width: 400px) {
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce-page[class*=columns-] ul.products li.product, .woocommerce[class*=columns-] ul.products li.product {
+        width: 100%;
+        float: none;
+        margin: 0 0 2.992em;
+    }
+}
+
+
+.woocommerce .quantity .qty {
+    height: 32px;
+    border-color: #dedede;
+    font-size:15px;
+    padding: 0 3px;
+    box-sizing: border-box;
+}
+
+.woocommerce .quantity .qty:focus{
+    outline:none!important;
+}
+
+.woocommerce .quantity .qty[type=number]::-webkit-inner-spin-button,
+.woocommerce .quantity .qty[type=number]::-webkit-outer-spin-button {
+
+    opacity: 1;
+}
+
+.woocommerce .product a.button {
+    font-size: 85%;
+}
+
+
+.plvr-buy-btn {
+    float: right;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none!important;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    font-size:24px;
+    border-radius: 3px;
+    left: auto;
+    color: #fff !important;
+    background-color: #915f8b;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+    transition: 0.3s background-color;
+}
+
+.plvr-buy-btn:hover{
+    color:#fff;
+    background-color:#774f72;
+}
+
+
+
+@media screen and (max-width: 599px) {
+
+    .site-header {
+        padding-bottom: 0;
+    }
+
+    .menu-toggle {
+        position: absolute;
+        top: 35px;
+        right: 0;
+        outline: none;
+    }
+
+    .menu-toggle + a + .menu-main-menu-container {
+        border-top: 1px solid #eee;
+    }
+    .nav-menu.toggled-on {
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+    }
+
+    .site-header hgroup .plvr-buy-btn{
+        display:none;
+    }
+
+}
+
+h1.site-title a {
+    text-indent: -3000px;
+    background-image: url(images/pluginever-woo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 130px;
+    background-position: -12px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
