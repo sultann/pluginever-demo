@@ -125,7 +125,7 @@ h2{
     border-radius: 3px;
     left: auto;
     color: #fff !important;
-    background-color: #915f8b;
+    background-color: #bb77ae;
     border: 0;
     white-space: nowrap;
     display: inline-block;
@@ -173,7 +173,7 @@ h2{
 
 h1.site-title a {
     text-indent: -3000px;
-    background-image: url(images/pluginever-woo.png);
+    background-image: url(images/woo-pluginever.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
