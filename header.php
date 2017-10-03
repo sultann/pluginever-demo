@@ -30,6 +30,13 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+<style type="text/css">
+	.section-separate.has-underline .section-heading {
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+</style>
 <?php wp_head(); ?>
 </head>
 
